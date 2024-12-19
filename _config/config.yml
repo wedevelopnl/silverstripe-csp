@@ -1,0 +1,15 @@
+---
+Name: csp-requirements
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\View\Requirements_Backend:
+    class: WeDevelop\Csp\View\RequirementsBackend
+---
+Name: csp-routes
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'wedevelop/csp//$Action': WeDevelop\Csp\Controller\CspController

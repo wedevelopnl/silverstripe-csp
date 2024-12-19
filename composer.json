@@ -1,0 +1,19 @@
+{
+    "name": "wedevelopnl/silverstripe-csp-custom-scripts",
+    "type": "silverstripe-vendormodule",
+    "require": {
+        "silverstripe/cms": "^4.0 || ^5.0"
+    },
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "WeDevelop\\Csp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WeDevelop",
+            "email": "hello@wedevelop.nl"
+        }
+    ]
+}
